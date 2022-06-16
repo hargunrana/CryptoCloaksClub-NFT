@@ -11,7 +11,7 @@ import Showcase from "./components/sections/Showcase";
 import Teams from "./components/sections/Teams";
 import Faq from "./components/sections/Faq";
 import Footer from "./components/Footer";
-
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
     return (
         <>
@@ -25,6 +25,7 @@ function App() {
                 <Teams />
                 <Faq />
                 <Footer />
+                {/* <ScrollToTop /> */}
             </ThemeProvider>
         </>
     );

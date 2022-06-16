@@ -40,7 +40,7 @@ const Box = styled.div`
 `;
 const Faq = () => {
     return (
-        <Section>
+        <Section id = "faq">
             <Title>FAQs</Title>
             <Container>
                 <Box>
