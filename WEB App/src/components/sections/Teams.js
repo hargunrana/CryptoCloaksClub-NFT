@@ -110,21 +110,29 @@ const Teams = () => {
             <ConfettiComponent />
             <Title>Team</Title>
             <Container>
-                <MemberComponent
-                    img={img1}
-                    name="Raditya Rana"
-                    position="Founder"
-                />
-                <MemberComponent
-                    img={img2}
-                    name="Hargun Singh Rana"
-                    position="Co-Founder"
-                />
-                <MemberComponent
-                    img={img3}
-                    name="SahilPreet singh"
-                    position="Co-Founder"
-                />
+                <a href="https://www.instagram.com/raditya_rana/">
+                    <MemberComponent
+                        img={img1}
+                        name="Raditya Rana"
+                        position="Founder"
+                    />
+                </a>
+
+                <a href="https://www.linkedin.com/in/hargunrana/">
+                    <MemberComponent
+                        img={img2}
+                        name="Hargun Singh Rana"
+                        position="Co-Founder"
+                    />
+                </a>
+
+                <a href="https://www.linkedin.com/in/sahilpreet-singh-861806235/">
+                    <MemberComponent
+                        img={img3}
+                        name="SahilPreet singh"
+                        position="Co-Founder"
+                    />
+                </a>
             </Container>
         </Section>
     );
